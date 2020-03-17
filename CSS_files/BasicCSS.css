@@ -1,0 +1,63 @@
+.here {
+  font-size: large;
+  border: 2px solid red;
+  color: hsla(0, 50%, 50%, 0.7);
+  padding: 10px;
+  display: inline-block;
+}
+body {
+  background-color: rgb(240, 240, 240, 0.5);
+}
+#exclusive {
+  margin: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+a:link {
+  color: red;
+}
+a:hover {
+  color: green;
+}
+a:visited {
+  color: hotpink;
+}
+a:active {
+  color: lightcyan;
+}
+div.first__div {
+  width: 700px;
+  height: 150px;
+  background-image: url("https://www.slashgear.com/wp-content/uploads/2019/12/frozen_moonrise_main-1280x720.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 15px;
+}
+th{
+    text-align: left;
+}
+table{
+    border-spacing: 5px;
+}
+table.table{
+    background-color: rgba(255, 0, 0, 0.322);
+}
+table.table tr:nth-child(even){
+    background-color: grey;
+}
+table.table tr:nth-child(odd){
+    background-color: #fff;
+}
+table.table th{
+    background-color: black;
+    color: white;
+}
+.red{
+  color: red;
+}
