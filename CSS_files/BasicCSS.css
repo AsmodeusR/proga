@@ -32,32 +32,68 @@ div.first__div {
   background-size: cover;
   background-repeat: no-repeat;
 }
-table, th, td{
-    border: 2px solid black;
-    border-collapse: collapse;
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
 }
-th,td{
-    padding: 15px;
+th,
+td {
+  padding: 15px;
 }
-th{
-    text-align: left;
+th {
+  text-align: left;
 }
-table{
-    border-spacing: 5px;
+table {
+  border-spacing: 5px;
 }
-table.table{
-    background-color: rgba(255, 0, 0, 0.322);
+table.table {
+  background-color: rgba(255, 0, 0, 0.322);
 }
-table.table tr:nth-child(even){
-    background-color: grey;
+table.table tr:nth-child(even) {
+  background-color: grey;
 }
-table.table tr:nth-child(odd){
-    background-color: #fff;
+table.table tr:nth-child(odd) {
+  background-color: #fff;
 }
-table.table th{
-    background-color: black;
-    color: white;
+table.table th {
+  background-color: black;
+  color: white;
 }
-.red{
+.red {
   color: red;
+}
+ul.menu {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+ul.menu li {
+  float: left;
+}
+ul.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+ul.menu li a:hover {
+  background-color: #111111;
+}
+.frame {
+  border: 2px solid black;
+  width: 300px;
+  height: 200px;
+}
+ul {
+  padding: 15px;
+}
+@media screen and (max-width: 800px) {
+  .width {
+    width: 100%;
+    height: auto;
+  }
 }
